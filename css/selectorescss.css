@@ -1,0 +1,30 @@
+     *{
+        font-family: monospace;
+        font-size: large;
+        margin: 3px;
+                border: 1px solid white;
+     }
+     
+     body{
+        
+        background-color: rgb(255, 185, 255);
+     }
+
+p{
+    margin-left: 5%;
+}
+
+      .cabecera{
+        margin-left: 7%;        
+       }    
+      .banner {
+        img {
+          max-height: 400px;
+        }
+      }
+
+      #uno{
+*{
+    background-color:  rgb(70, 11, 126);}
+        
+               }

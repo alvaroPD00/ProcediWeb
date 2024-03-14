@@ -1,0 +1,170 @@
+body{
+
+font-family: monospace;
+
+}
+
+
+.contenedor-cabecera{
+    background-color: rgb(252, 170, 255);
+    
+    }
+
+.cabecera{
+    display: flex;
+height: 120px;
+width: 1200px;
+/*border:1px solid  rgb(0, 0, 0);*/
+margin-left: auto;
+margin-right: auto;
+
+overflow: hidden;
+}
+    .Contenedor-botonera{
+
+        overflow: hidden;
+        height: 100%;  
+        margin-left: auto;
+
+   }
+
+
+
+ .lista-botones{
+
+    overflow: hidden;
+    height: 100%;
+  display: flex;
+  align-items: center;
+ padding: 0;
+ margin: 0;
+    list-style: none;
+    font-size:0px;  
+}
+
+
+
+.item-navegacion{  
+    
+    font-size:21px;
+    display: inline-block;   
+}
+
+.boton-link{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    line-height: 120px;
+    font-weight: 700;
+}
+.boton-link:hover{
+background-color: rgb(0, 0, 0, 0.5);
+}
+
+.link-logo{
+    line-height: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+  
+}
+
+/*banner*/
+
+.banner{
+
+
+    background-image: url("../img/banner-inicio5.jpg");
+    background-position:  center top;
+    background-size: cover;
+}
+
+.contenedor-banner{
+
+   
+    height: 100%;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.mini-foto{
+margin-bottom: 40px;
+img{
+    
+    border-radius: 10% 20% 30% 50%;
+    border: solid white 1px;
+    width: 150px;
+height: 150px;}
+}
+
+    .texto-banner{
+
+background-color: rgb(252, 170, 255, 0.5);
+display: inline-block;
+padding: 30px;
+color: white;
+h1{
+font-size: 36px;
+margin: 10px;
+text-transform: uppercase;
+margin: 0;
+}
+p{
+font-size: 18px;
+text-transform: uppercase;
+margin-bottom: 0;
+}
+}
+
+
+/*cuerpo*/
+
+main{
+
+    
+    background-color:  rgb(253, 212, 255);
+}
+
+.Caracteristicas{
+
+
+    h2{
+        font-size: 30px;
+    }
+
+}
+.subrayado{
+
+text-align: center;
+text-transform: uppercase;
+span{
+    display: inline-block;
+    border-bottom: 8px solid blueviolet;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
+
+.Caracteristica{
+    h3{
+        
+        font-size: 24px;
+    }
+
+}
+
+.texto-caracteristica{
+    
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+padding: 10px;
+background-color: white;
+font-size: 18px;
+}
