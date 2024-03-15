@@ -1,7 +1,7 @@
 body{
 
 font-family: monospace;
-
+ margin: 0;
 }
 
 
@@ -74,11 +74,40 @@ background-color: rgb(0, 0, 0, 0.5);
 
 /*banner*/
 
-.banner{
-
+.banner-inicio{
 
     background-image: url("../img/banner-inicio5.jpg");
     background-position:  center top;
+    background-size: cover;
+}
+
+.banner-generativo{
+
+    display: flex;
+    min-height: 414px;
+align-items: center;
+    background-image: url("../img/banner-generativo.jpg");
+    background-position:  center ;
+    background-size: cover;
+}
+
+.banner-procedural{
+
+    display: flex;
+    min-height: 414px;
+align-items: center;
+    background-image: url("../img/banner-procedural.jpg");
+    background-position:  center ;
+    background-size: cover;
+}
+
+.banner-semiotica{
+
+    display: flex;
+    min-height: 414px;
+align-items: center;
+    background-image: url("../img/banner-semiotica.jpg");
+    background-position:  center ;
     background-size: cover;
 }
 
@@ -105,7 +134,7 @@ height: 150px;}
 
     .texto-banner{
 
-background-color: rgb(252, 170, 255, 0.5);
+background-color: rgb(252, 170, 255, 0.55);
 display: inline-block;
 padding: 30px;
 color: white;
@@ -127,22 +156,38 @@ margin-bottom: 0;
 
 main{
 
-    
+    padding-bottom: 10px;
     background-color:  rgb(253, 212, 255);
 }
 
-.Caracteristicas{
+.bloques-texto{
 
 
-    h2{
-        font-size: 30px;
-    }
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+section{
+
+    border-top: 50px solid  blueviolet;
+    padding-bottom: 10px;
 
 }
+article{
+    
+    margin-right: 15px ;
+    margin-left: 15px ;
+}
+
+}
+
 .subrayado{
 
 text-align: center;
 text-transform: uppercase;
+
+
+margin-top: 30px;
+margin-bottom: 8px;
 span{
     display: inline-block;
     border-bottom: 8px solid blueviolet;
@@ -151,20 +196,44 @@ span{
 }
 }
 
-.Caracteristica{
+header{
+
+    h2{
+
+        font-size: 30px;
+    }
+
     h3{
         
         font-size: 24px;
     }
-
 }
 
-.texto-caracteristica{
-    
-    width: 1200px;
+
+.bloque-texto{
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 padding: 10px;
 background-color: white;
 font-size: 18px;
+}
+
+.contenedor-video{
+margin-left: auto;
+margin-right: auto;
+iframe{
+aspect-ratio: 16/9;
+    
+    width:100%;
+display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+.texto-cita{
+
+
 }
