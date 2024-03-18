@@ -1,0 +1,33 @@
+probar version de contenido simil artimañas
+
+organizar y componer contenido
+
+colores variados en cada pagina
+  - editar y producir logos de diferentes colores
+
+reemplazar portada de video youtube
+
+modificar navegacion inicial:
+  - agregar inicio en las opciones superiores
+  - hacer enroque entre logo procediverso y selfie
+  - adaptar banner de las demas paginas para incorporar un logo presente en todas ellas
+  - linkear selfie a web personal (posible place holder)
+
+chekear conflictos y errores vía web de chekeo
+
+componer y dar formato a las citas/fragmento de texto
+
+linkear tesis y web de artimañas
+
+terminar proyecto unity
+  - chekear y modificar cambios en la version de artimañas
+  - buildear una version VR y otra para monitores
+
+pushear version a github para publicar
+  - consultar como hacerlo adecuadamente por el copyright de marian42
+
+likear builds en itchio
+
+linkear proyecto github y builds de itchio
+
+¿implementar barra lateral con github, itchio, artimañas y tesis?
