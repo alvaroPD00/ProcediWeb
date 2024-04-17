@@ -1,239 +1,202 @@
-body{
-
-font-family: monospace;
- margin: 0;
+body {
+  font-family: monospace;
+  margin: 0;
 }
 
-
-.contenedor-cabecera{
-    background-color: rgb(252, 170, 255);
-    
-    }
-
-.cabecera{
-    display: flex;
-height: 120px;
-width: 1200px;
-/*border:1px solid  rgb(0, 0, 0);*/
-margin-left: auto;
-margin-right: auto;
-
-overflow: hidden;
+.contenedor-cabecera {
+  background-color: rgb(252, 170, 255);
 }
-    .Contenedor-botonera{
 
-        overflow: hidden;
-        height: 100%;  
-        margin-left: auto;
+.cabecera {
+  display: flex;
+  height: 120px;
+  width: 1200px;
+  /*border:1px solid  rgb(0, 0, 0);*/
+  margin-left: auto;
+  margin-right: auto;
 
-   }
+  overflow: hidden;
+}
+.Contenedor-botonera {
+  overflow: hidden;
+  height: 100%;
+  margin-left: auto;
+}
 
-
-
- .lista-botones{
-
-    overflow: hidden;
-    height: 100%;
+.lista-botones {
+  overflow: hidden;
+  height: 100%;
   display: flex;
   align-items: center;
- padding: 0;
- margin: 0;
-    list-style: none;
-    font-size:0px;  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0px;
 }
 
-
-
-.item-navegacion{  
-    
-    font-size:21px;
-    display: inline-block;   
+.item-navegacion {
+  font-size: 21px;
+  display: inline-block;
 }
 
-.boton-link{
-    
-    padding-left: 10px;
-    padding-right: 10px;
-    display: inline-block;
-    text-transform: uppercase;
-    color: white;
-    line-height: 120px;
-    font-weight: 700;
+.boton-link {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  line-height: 120px;
+  font-weight: 700;
 }
-.boton-link:hover{
-background-color: rgb(0, 0, 0, 0.5);
+.boton-link:hover {
+  background-color: rgb(0, 0, 0, 0.5);
 }
 
-.link-logo{
-    line-height: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: inline-block;
-  
+.link-logo {
+  line-height: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
 }
 
 /*banner*/
 
-.banner-inicio{
-
-    background-image: url("../img/banner-inicio5.jpg");
-    background-position:  center top;
-    background-size: cover;
+.banner-inicio {
+  background-image: url("../img/banner-inicio5.jpg");
+  background-position: center top;
+  background-size: cover;
 }
 
-.banner-generativo{
-
-    display: flex;
-    min-height: 414px;
-align-items: center;
-    background-image: url("../img/banner-generativo.jpg");
-    background-position:  center ;
-    background-size: cover;
+.banner-generativo {
+  display: flex;
+  min-height: 414px;
+  align-items: center;
+  background-image: url("../img/banner-generativo.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.banner-procedural{
-
-    display: flex;
-    min-height: 414px;
-align-items: center;
-    background-image: url("../img/banner-procedural.jpg");
-    background-position:  center ;
-    background-size: cover;
+.banner-procedural {
+  display: flex;
+  min-height: 414px;
+  align-items: center;
+  background-image: url("../img/banner-procedural.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.banner-semiotica{
-
-    display: flex;
-    min-height: 414px;
-align-items: center;
-    background-image: url("../img/banner-semiotica.jpg");
-    background-position:  center ;
-    background-size: cover;
+.banner-semiotica {
+  display: flex;
+  min-height: 414px;
+  align-items: center;
+  background-image: url("../img/banner-semiotica.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.contenedor-banner{
-
-   
-    height: 100%;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
-    text-align: center;
+.contenedor-banner {
+  height: 100%;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  text-align: center;
 }
 
-.mini-foto{
-margin-bottom: 40px;
-img{
-    
+.mini-foto {
+  margin-bottom: 40px;
+  img {
     border-radius: 10% 20% 30% 50%;
     border: solid white 1px;
     width: 150px;
-height: 150px;}
+    height: 150px;
+  }
 }
 
-    .texto-banner{
-
-background-color: rgb(252, 170, 255, 0.55);
-display: inline-block;
-padding: 30px;
-color: white;
-h1{
-font-size: 36px;
-margin: 10px;
-text-transform: uppercase;
-margin: 0;
+.texto-banner {
+  background-color: rgb(252, 170, 255, 0.55);
+  display: inline-block;
+  padding: 30px;
+  color: white;
+  h1 {
+    font-size: 36px;
+    margin: 10px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  p {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
 }
-p{
-font-size: 18px;
-text-transform: uppercase;
-margin-bottom: 0;
-}
-}
-
 
 /*cuerpo*/
 
-main{
+main {
+  padding-bottom: 10px;
+  background-color: rgb(253, 212, 255);
+}
 
+.bloques-texto {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  section {
+    border-top: 50px solid blueviolet;
     padding-bottom: 10px;
-    background-color:  rgb(253, 212, 255);
+  }
+  article {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 }
 
-.bloques-texto{
+.subrayado {
+  text-align: center;
+  text-transform: uppercase;
 
-
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-section{
-
-    border-top: 50px solid  blueviolet;
-    padding-bottom: 10px;
-
-}
-article{
-    
-    margin-right: 15px ;
-    margin-left: 15px ;
-}
-
-}
-
-.subrayado{
-
-text-align: center;
-text-transform: uppercase;
-
-
-margin-top: 30px;
-margin-bottom: 8px;
-span{
+  margin-top: 30px;
+  margin-bottom: 8px;
+  span {
     display: inline-block;
     border-bottom: 8px solid blueviolet;
     padding-left: 10px;
     padding-right: 10px;
-}
-}
-
-header{
-
-    h2{
-
-        font-size: 30px;
-    }
-
-    h3{
-        
-        font-size: 24px;
-    }
+  }
 }
 
+header {
+  h2 {
+    font-size: 30px;
+  }
 
-.bloque-texto{
-    max-width: 900px;
+  h3 {
+    font-size: 24px;
+  }
+}
+
+.bloque-texto {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: white;
+  font-size: 18px;
+}
+
+.contenedor-video {
+  margin-left: auto;
+  margin-right: auto;
+  iframe {
+    aspect-ratio: 16/9;
+
+    width: 100%;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
-padding: 10px;
-background-color: white;
-font-size: 18px;
+  }
 }
 
-.contenedor-video{
-margin-left: auto;
-margin-right: auto;
-iframe{
-aspect-ratio: 16/9;
-    
-    width:100%;
-display: inline;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-}
-
-.texto-cita{
-
-
+.texto-cita {
 }
