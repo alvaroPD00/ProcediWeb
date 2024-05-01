@@ -6,7 +6,7 @@ body {
 /**************************barra superior*****************************/
 
 .contenedor-cabecera {
-  background-color: rgb(252, 170, 255);
+  background-color: hsl(298, 100%, 83%);
 }
 
 .cabecera {
@@ -20,6 +20,21 @@ body {
 
   flex-direction: row;
   justify-content: flex-end;
+}
+
+.mini-foto {
+  margin-right: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    border-radius: 10% 20% 30% 50%;
+    border: solid hsl(0, 0%, 100%) 1px;
+    width: 100px;
+    height: 100px;
+  }
 }
 
 .lista-botones {
@@ -49,11 +64,7 @@ body {
   text-align: center;
 }
 .boton-link:hover {
-  background-color: rgb(0, 0, 0, 0.5);
-}
-
-.link-logo {
-  margin-right: auto;
+  background-color: hsla(0, 0%, 0%, 0.5);
 }
 
 /*****************************banner*****************************/
@@ -103,17 +114,18 @@ body {
   background-size: cover;
 }
 
-.mini-foto {
+.contenedor-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   img {
-    border-radius: 10% 20% 30% 50%;
-    border: solid white 1px;
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    position: absolute;
   }
 }
 
 .texto-banner {
-  background-color: rgb(252, 170, 255, 0.55);
+  background-color: hsla(298, 100%, 83%, 0.55);
   display: inline-block;
   aspect-ratio: 2.35/1;
   color: white;
@@ -144,7 +156,7 @@ body {
 
 main {
   padding-bottom: 10px;
-  background-color: rgb(253, 212, 255);
+  background-color: hsl(297, 100%, 92%);
 }
 
 .bloques-texto {
@@ -152,7 +164,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   section {
-    border-top: 50px solid blueviolet;
+    border-top: 50px solid hsl(271, 76%, 53%);
     padding-bottom: 10px;
   }
   article {
@@ -177,7 +189,7 @@ header {
   margin-bottom: 8px;
   span {
     display: inline-block;
-    border-bottom: 8px solid blueviolet;
+    border-bottom: 8px solid hsl(271, 76%, 53%);
     padding-left: 10px;
     padding-right: 10px;
   }
