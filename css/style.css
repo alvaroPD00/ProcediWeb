@@ -11,15 +11,14 @@ body {
 
 .cabecera {
   display: flex;
-  height: 120px;
   width: 90%;
-  /*border:1px solid  rgb(0, 0, 0);*/
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-
   flex-direction: row;
   justify-content: flex-end;
+
+  align-items: center;
 }
 
 .mini-foto {
@@ -28,7 +27,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding: 5px;
   img {
     border-radius: 10% 20% 30% 50%;
     border: solid hsl(0, 0%, 100%) 1px;
@@ -41,6 +40,8 @@ body {
   overflow: hidden;
   height: 100%;
   display: flex;
+
+  flex-wrap: wrap;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -50,15 +51,17 @@ body {
 
 .item-navegacion {
   display: flex;
+
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .boton-link {
   text-transform: uppercase;
   color: white;
   font-size: 21px;
-  padding: 44px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 10px;
   display: inline-block;
   font-weight: 700;
   text-align: center;
@@ -167,8 +170,8 @@ main {
     border-top: 50px solid hsl(271, 76%, 53%);
     padding-bottom: 10px;
   }
-  article {
-  }
+  /* article {
+  }*/
 }
 
 header {
@@ -217,5 +220,75 @@ header {
   }
 }
 
-.texto-cita {
+/*.texto-cita {
+}*/
+
+/*********************PIE DE PAGINA*********************/
+.contenedor-footer {
+  padding-top: 5px;
+  background-color: hsl(271, 76%, 53%);
+  * {
+    color: white;
+  }
+}
+
+.pie-pagina {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo-contacto {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  span {
+    display: inline-block;
+    border-bottom: 8px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.contenido-pie {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  * {
+    font-size: large;
+
+    font-weight: 700;
+  }
+  p {
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  a {
+    margin: 5px;
+  }
+}
+
+.links-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
