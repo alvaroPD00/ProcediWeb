@@ -6,6 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
   var cabecera = document.querySelector(".contenedor-cabecera");
   cabecera.style.backgroundColor = "hsl(" + tonoAzar + ", 78%, 68%)";
 
+  /*footer*/
+  var footer = document.querySelector(".contenedor-footer");
+  footer.style.backgroundColor = "hsl(" + tonoAzar + ", 75%, 45%)";
+
   /*caja texto banner*/
   var textoBanner = document.querySelector(".texto-banner");
   textoBanner.style.backgroundColor = "hsl(" + tonoAzar + ", 100%, 83%, 0.55)";
