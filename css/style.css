@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+@font-face {
+  font-family: "DCC-Ash";
+  src: url("DCC-Ash.woff") format("woff");
+}
+
 /**************************barra superior*****************************/
 
 .contenedor-cabecera {
@@ -220,8 +225,10 @@ header {
   }
 }
 
+/**************************conocer mas*****************************/
+
 .contenedor-cuadrados {
-  width: 45%;
+  width: 50%;
   aspect-ratio: 1/1;
 
   margin-left: auto;
@@ -245,9 +252,20 @@ header {
 
   background-color: gray;
   text-align: center;
+  text-decoration: none;
 }
 .c-artimanias {
-  background-color: black;
+  font-family: "DCC-Ash";
+  background-image: url("../img/cuadrado\ artimañas.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: x-large;
+}
+.c-artimanias:hover {
+  background-position: top left;
+
+  background-size: auto;
 }
 
 /*.texto-cita {
@@ -301,7 +319,7 @@ header {
   margin-right: auto;
 
   * {
-    font-size: large;
+    font-size: larger;
 
     font-weight: 700;
   }
