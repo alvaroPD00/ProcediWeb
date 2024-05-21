@@ -51,9 +51,3 @@ document.addEventListener("DOMContentLoaded", function () {
   var poligono3 = document.querySelector(".poligon3");
   poligono3.style = "fill:hsl(" + tonoAzar + ", 100%, 50%)";
 });
-
-/*FUENTES*/
-<script
-  src="https://c.webfontfree.com/c.js?f=DCC-Ash"
-  type="text/javascript"
-></script>;
