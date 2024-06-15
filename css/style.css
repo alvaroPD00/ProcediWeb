@@ -78,9 +78,12 @@ body {
 /*****************************banner*****************************/
 
 .banner-inicio {
-  background-image: url("../img/banner-inicio5.jpg");
+  background-image: url("../img/inicio/banner-inicio.jpg");
   background-position: center top;
   background-size: cover;
+  display: flex;
+  min-height: 414px;
+  align-items: center;
 }
 
 .contenedor-banner {
@@ -175,8 +178,17 @@ main {
     border-top: 50px solid hsl(271, 76%, 53%);
     padding-bottom: 10px;
   }
-  /* article {
-  }*/
+}
+
+.contenedor-video {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+    display: inline;
+  }
 }
 
 header {
@@ -203,7 +215,7 @@ header {
   }
 }
 
-.bloque-texto {
+.texto-inicial {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -212,15 +224,24 @@ header {
   font-size: 18px;
 }
 
-.contenedor-video {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  iframe {
-    aspect-ratio: 16/9;
-    width: 100%;
-    display: inline;
-  }
+.contenido-articulo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bloque-texto {
+  width: 45%;
+  padding: 10px;
+  background-color: white;
+  font-size: 18px;
+}
+
+.contenedor-gif {
+  width: 45%;
+  margin: 10px;
 }
 
 /**************************conocer mas*****************************/
@@ -266,8 +287,44 @@ header {
   background-size: auto;
 }
 
-/*.texto-cita {
-}*/
+/**************************segui leyendo*****************************/
+.segui-leyendo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boton-continuar {
+  text-transform: uppercase;
+  font-size: 21px;
+  padding: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+
+  margin: 10px;
+}
+
+.continuar-marian42 {
+  background-image: url("../img/inicio/marian42.jpg");
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+
+.continuar-inicio {
+  background-image: url("../img/inicio/banner-inicio.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.continuar-semiotica {
+  background-image: url("../img/banner-semiotica.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 /*********************PIE DE PAGINA*********************/
 .contenedor-footer {
