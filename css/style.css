@@ -244,6 +244,20 @@ header {
   margin: 10px;
 }
 
+@media screen and (max-width: 750px) {
+  .texto-inicial {
+    width: 90%;
+  }
+
+  .bloque-texto {
+    width: 85%;
+  }
+
+  .contenedor-gif {
+    width: 85%;
+  }
+}
+
 /**************************conocer mas*****************************/
 
 .contenedor-cuadrados {
