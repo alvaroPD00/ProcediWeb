@@ -1,5 +1,5 @@
 body {
-  font-family: monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
 
@@ -51,7 +51,6 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
-  font-size: 0px;
 }
 
 .item-navegacion {
@@ -65,7 +64,7 @@ body {
 .boton-link {
   text-transform: uppercase;
   color: white;
-  font-size: 21px;
+  font-size: medium;
   padding: 10px;
   display: inline-block;
   font-weight: 700;
@@ -149,7 +148,7 @@ body {
     margin-left: 15px;
     margin-right: 15px;
     text-align: center;
-    font-size: 36px;
+    font-size: xx-large;
     text-transform: uppercase;
   }
   p {
@@ -158,7 +157,7 @@ body {
     margin-left: 15px;
     margin-right: 15px;
     text-align: center;
-    font-size: 18px;
+    font-size: medium;
     text-transform: uppercase;
   }
 }
@@ -193,11 +192,11 @@ main {
 
 header {
   h2 {
-    font-size: 30px;
+    font-size: x-large;
   }
 
   h3 {
-    font-size: 24px;
+    font-size: large;
   }
 }
 
@@ -221,7 +220,7 @@ header {
   margin-right: auto;
   padding: 10px;
   background-color: white;
-  font-size: 18px;
+  font-size: large;
 }
 
 .contenido-articulo {
@@ -236,7 +235,7 @@ header {
   width: 45%;
   padding: 10px;
   background-color: white;
-  font-size: 18px;
+  font-size: large;
 }
 
 .contenedor-gif {
@@ -312,7 +311,7 @@ header {
 
 .boton-continuar {
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: large;
   padding: 30px;
   font-weight: 700;
   color: white;
@@ -358,7 +357,7 @@ header {
 .titulo-contacto {
   text-align: center;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: x-large;
   margin-top: 0px;
   margin-bottom: 10px;
   span {
@@ -388,9 +387,7 @@ header {
   margin-right: auto;
 
   * {
-    font-size: larger;
-
-    font-weight: 700;
+    font-size: large;
   }
   p {
     margin-left: auto;
