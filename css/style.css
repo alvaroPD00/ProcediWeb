@@ -8,6 +8,11 @@ body {
   src: url("DCC-Ash.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Pokemon-Classic";
+  src: url("Pokemon-Classic.woff") format("woff");
+}
+
 /**************************barra superior*****************************/
 
 .contenedor-cabecera {
@@ -24,6 +29,18 @@ body {
   justify-content: flex-end;
 
   align-items: center;
+}
+
+.logo-cabecera {
+  font-family: Pokemon-Classic;
+  text-align: center;
+  margin: 6px;
+  font-size: large;
+  color: black;
+  text-decoration: none;
+  margin-right: auto;
+
+  padding: 5px;
 }
 
 .mini-foto {
@@ -294,11 +311,6 @@ header {
   color: white;
   font-size: x-large;
 }
-.c-artimanias:hover {
-  background-position: top left;
-
-  background-size: auto;
-}
 
 /**************************segui leyendo*****************************/
 .segui-leyendo {
@@ -338,6 +350,8 @@ header {
   background-position: center;
   background-size: cover;
 }
+
+/*********************EN CONSTRUCCION*********************/
 
 /*********************PIE DE PAGINA*********************/
 .contenedor-footer {
@@ -399,6 +413,18 @@ header {
   a {
     margin: 5px;
   }
+}
+
+.logo-footer {
+  font-family: Pokemon-Classic;
+  text-align: center;
+  margin: 6px;
+  font-size: large;
+  color: white;
+  text-decoration: none;
+  margin-right: auto;
+
+  padding: 5px;
 }
 
 .links-redes {
