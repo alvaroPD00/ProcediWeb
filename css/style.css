@@ -305,11 +305,35 @@ header {
 }
 .c-artimanias {
   font-family: "DCC-Ash";
-  background-image: url("../img/cuadrado\ artimañas.jpg");
+  background-image: url("../img/cuadrado-artimañas.jpg");
   background-position: center;
   background-size: cover;
   color: white;
-  font-size: x-large;
+  font-size: larger;
+}
+
+.c-tesina {
+  background-image: url("../img/cuadrado-tecina.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: large;
+}
+
+.c-github {
+  background-image: url("../img/cuadrado-github.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: large;
+}
+
+.c-itchio {
+  background-image: url("../img/cuadrado-itchio.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: large;
 }
 
 /**************************segui leyendo*****************************/
